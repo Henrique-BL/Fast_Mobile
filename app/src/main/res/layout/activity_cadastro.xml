@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".activity.activity_cadastro_eletro">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="@string/eletroNome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.042"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextEletroNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textViewVoltagem"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/eletroVoltagem"
+            app:layout_constraintStart_toStartOf="@+id/spinnerEletroTempo"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerEletroTempo" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupEletro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="@+id/textViewVoltagem"
+            app:layout_constraintTop_toBottomOf="@+id/textViewVoltagem">
+
+            <RadioButton
+                android:id="@+id/radioButtonEletro110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eletroVoltagem110" />
+
+            <RadioButton
+                android:id="@+id/radioButtonEletro220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eletroVoltagem220" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewEletroPotência"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/eletroPotencia"
+            app:layout_constraintStart_toStartOf="@+id/editTextEletroNome"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEletroNome" />
+
+        <EditText
+            android:id="@+id/editTextTextEletroPotencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="@+id/textViewEletroPotência"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEletroPotência"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textViewEletroTempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/eletroTempo"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextEletroPotencia"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEletroPotencia" />
+
+        <Spinner
+            android:id="@+id/spinnerEletroTempo"
+            android:layout_width="210dp"
+            android:layout_height="48dp"
+            app:layout_constraintStart_toStartOf="@+id/textViewEletroTempo"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEletroTempo"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEletroAtivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eletroRespostaSim"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/eletroPergunta"
+            app:layout_constraintStart_toStartOf="@+id/radioGroupEletro"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroupEletro" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

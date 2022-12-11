@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="potencia">
+        <item>100</item>
+        <item>150</item>
+        <item>250</item>
+        <item>300</item>
+        <item>450</item>
+        <item>600</item>
+        <item>700</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1200</item>
+    </integer-array>
+
+    <integer-array name="voltagens">
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+        <item>220</item>
+    </integer-array>
+    <integer-array name="tempo">
+        <item>10</item>
+        <item>50</item>
+        <item>30</item>
+        <item>20</item>
+        <item>150</item>
+        <item>18</item>
+        <item>165</item>
+        <item>320</item>
+        <item>50</item>
+        <item>31</item>
+    </integer-array>
+    <integer-array name="estados">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="nomes">
+        <item>"Mouse"</item>
+        <item>"Carregador"</item>
+        <item>"Secador"</item>
+        <item>"Ventilador - Irmão"</item>
+        <item>"Ventilador - Mãe"</item>
+        <item>"Geladeira"</item>
+        <item>"Televisão"</item>
+        <item>"Liquidificador"</item>
+        <item>"Central de ar"</item>
+        <item>"Máquina de lavar"</item>
+    </string-array>
+
+    <string-array name="locaisIniciais">
+        <item>"Minha casa"</item>
+        <item>"Armazém"</item>
+        <item>"Kitnet 1"</item>
+    </string-array>
+
+    <integer-array name="horas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </integer-array>
+
+</resources>

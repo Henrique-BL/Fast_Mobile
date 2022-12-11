@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemAdicionar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/adicionar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuItemSobre"
+        android:title="@string/sobre" />
+    <item android:title="@string/ordenacao">
+        <menu>
+            <group
+                android:id="@+id/menuGroupOrdenacao"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/menuItemPotCres"
+                    android:title="@string/potencia_crescente" />
+                <item
+                    android:id="@+id/menuItemPotDecres"
+                    android:title="@string/potencia_decrescente" />
+                <item
+                    android:id="@+id/menuItemAlCres"
+                    android:title="@string/alfabetica_crescente" />
+                <item
+                    android:id="@+id/menuItemAlDecres"
+                    android:title="@string/alfabetica_decrescente" />
+            </group>
+
+
+        </menu>
+    </item>
+</menu>
